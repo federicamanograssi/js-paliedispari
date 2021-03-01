@@ -1,5 +1,5 @@
 // Chiedere all'utente di inserire una parola
-var userWord = prompt('Inserisci una parola');
+var userWord = prompt('Inserisci una parola').toLowerCase();
 console.log(userWord);
 
 // // Creare una funzione per capire se la parola inserita è palindroma
@@ -23,7 +23,7 @@ function isPalindrome(x) {
 
 // ------------------PROVIAMO LA FUNZIONE----------------
 isPalindrome(userWord);
-if (isPalindrome(userWord) == true){
+if (isPalindrome(userWord)){
     alert('è palindromo')
 }else{
     alert('non è palindromo')

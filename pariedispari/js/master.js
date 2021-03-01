@@ -34,11 +34,11 @@ var sum = myNumber + userNumber;
 console.log(sum);
 
 // verificare se la somma è pari o dispari CON FUNZIONE
-function isEven(x){
-    if (x % 2 != 0){
+function isEven(num){
+    if (num % 2 != 0){
         return false;
     }
-    return true
+    return true;
 };
 
 isEven(sum);
