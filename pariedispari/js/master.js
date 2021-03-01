@@ -44,17 +44,13 @@ function isEven(x){
 isEven(sum);
 console.log(isEven(sum))
 
-if(isEven(sum) == true){
-    isEven(sum) == pari;
-};
-if(isEven(sum) == false){
-    isEven(sum) == dispari;
-};
-
+var result = (isEven(sum))? "pari":"dispari";
+console.log(result)
 
 // verificare se ha vinto
-if (isEven(sum) == userBet) {
-    alert('La somma è ' + sum + '. You won')
+
+if (result == userBet) {
+    alert('La somma è ' + result + '. You won')
 } else {
-    alert('La somma è ' + sum + '. You lose')
+    alert('La somma è ' + result + '. You lose')
 }
